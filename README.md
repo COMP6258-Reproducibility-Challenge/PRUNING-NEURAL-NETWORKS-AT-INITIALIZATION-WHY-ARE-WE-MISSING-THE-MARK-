@@ -30,11 +30,23 @@ GPU (if available, suggest) (in this work, GPU P100 from Kaggle free resources i
 
 Simply access to `/SNIP` or `/grasp` or `/magnitude` or `/synflow` in `trials/`, then follow the instructions. All codes are inside.
 
+## Results
+
+<p align="center">
+  <img src="snip.png", width="24%", height="24%"/>
+  <img src="GraSP.png", width="24%", height="24%"/>
+  <img src="Magnitude.png", width="24%", height="24%"/>
+  <img src="SynFlow.png", width="24%", height="24%"/>
+  <p align="center">Test Accuracy of Ablations on Pruning Methods</p>
+</p>
+
 ## Reference
 
 [1] Frankle, Jonathan, et al. "Pruning neural networks at initialization: Why are we missing the mark?." arXiv preprint arXiv:2009.08576 (2020). https://doi.org/10.48550/arXiv.2009.08576
 
 [2] Tanaka, Hidenori, et al. "Pruning neural networks without any data by iteratively conserving synaptic flow." Advances in neural information processing systems 33 (2020): 6377-6389. https://doi.org/10.48550/arXiv.2006.05467
+
+[3] Wang, Chaoqi, Guodong Zhang, and Roger Grosse. "Picking winning tickets before training by preserving gradient flow." arXiv preprint arXiv:2002.07376 (2020). https://doi.org/10.48550/arXiv.2002.07376
 
 ## Link
 
