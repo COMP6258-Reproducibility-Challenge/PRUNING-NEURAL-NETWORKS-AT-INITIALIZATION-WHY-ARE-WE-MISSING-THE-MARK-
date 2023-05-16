@@ -14,6 +14,10 @@ In this work, works of <a href="https://arxiv.org/abs/2205.09328" target="_blank
 
 The results are the same as the original paper except the results of the inversion method. When applying inversion on SynFlow and GraSP, the trends of testing accuracy are not in the same as the guess, which should be decreasing sharply. The trends still increase. This needs further researches.
 
+## Resources Reduction
+
+
+
 ## How to Run
 
 ### Resources
