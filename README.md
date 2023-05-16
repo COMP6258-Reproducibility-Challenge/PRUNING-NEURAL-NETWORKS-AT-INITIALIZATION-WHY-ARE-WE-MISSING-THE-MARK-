@@ -10,11 +10,13 @@
 
 ## Overview
 
-In this work, works of <a href="https://arxiv.org/abs/2205.09328" target="_blank">Pruning Neural Networks at Initialization: Why are We Missing the Mark?</a> are reproduced. Three pruning methods on VGG16 and VGG19 respectively on CIFAR10 (GraSP: , SNIP: , SynFlow: `trials/synflow`) are implemented. The results are the same as the original paper.
+In this work, works of <a href="https://arxiv.org/abs/2205.09328" target="_blank">Pruning Neural Networks at Initialization: Why are We Missing the Mark?</a> are reproduced. Three pruning methods on VGG16 and VGG19 respectively on CIFAR10 (GraSP: , SNIP: , SynFlow: `trials/synflow`) are implemented. In each trial, the pruned model is trained 80 epochs to observe performance.
+
+The results are the same as the original paper except the results of the inversion method. When applying inversion on SynFlow and GraSP, the trends of testing accuracy are not in the same as the guess, which should be decreasing sharply. The trends still increase. This needs further researches.
 
 ## How to Run
 
-### Requirements
+### Resources
 
 PyTorch >= 1.4.0
 
@@ -22,7 +24,7 @@ Torchvision >= 0.5.0
 
 Torchbearer
 
-GPU (if available, suggest)
+GPU (if available, suggest) (in this work, GPU P100 from Kaggle free resources is used)
 
 ### Run each trial
 
