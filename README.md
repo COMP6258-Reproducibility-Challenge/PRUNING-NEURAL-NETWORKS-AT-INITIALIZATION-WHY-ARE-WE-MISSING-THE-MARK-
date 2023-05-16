@@ -22,7 +22,7 @@ The results are the same as the original paper except the results of the inversi
   <p align="center">Training and validation accuracies for different number of iterations</p>
 </p>
 
-The original paper typically used 160 training iterations and depending on the sparsity level of the network, this would take 2 to 3 hours to train. In terms of results obtained, there appears to be no significant changes to accuracies when the model was trained up to 80 epochs compared to 160 epochs. For this reason, in this paper, the number of training iterations was limited to 80 epochs to reduce the training time. 
+The original paper typically used 160 training iterations and depending on the sparsity level of the network, this would take 2 to 3 hours to train. In terms of results obtained, as the figures showed above, there appears to be no significant changes to accuracies when the model was trained up to 80 epochs compared to 160 epochs. For this reason, in this paper, the number of training iterations was limited to 80 epochs to reduce the training time. 
 
 ## How to Run
 
