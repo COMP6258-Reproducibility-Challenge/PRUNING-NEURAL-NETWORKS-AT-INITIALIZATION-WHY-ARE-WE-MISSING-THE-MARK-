@@ -50,6 +50,8 @@ Simply access to `/SNIP` or `/grasp` or `/magnitude` or `/synflow` in `trials/`,
   <p align="center">Test Accuracy of Ablations on Pruning Methods</p>
 </p>
 
+This reimplementation produces outcomes that align with those reported in the original study for all pruning strategies except inverted SynFlow.
+
 ## Reference
 
 [1] Frankle, Jonathan, et al. "Pruning neural networks at initialization: Why are we missing the mark?." arXiv preprint arXiv:2009.08576 (2020). https://doi.org/10.48550/arXiv.2009.08576
