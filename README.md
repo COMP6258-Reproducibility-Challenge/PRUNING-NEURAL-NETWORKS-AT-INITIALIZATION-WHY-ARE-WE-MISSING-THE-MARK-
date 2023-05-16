@@ -50,7 +50,9 @@ Simply access to `/SNIP` or `/grasp` or `/magnitude` or `/synflow` in `trials/`,
 
 ## Link
 
-[1] ganguli-lab/Synaptic-Flow: https://github.com/ganguli-lab/Synaptic-Flow
+[1] alecwangcq/GraSP: https://github.com/alecwangcq/GraSP
+
+[2] ganguli-lab/Synaptic-Flow: https://github.com/ganguli-lab/Synaptic-Flow
 
 
 
