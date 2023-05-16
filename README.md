@@ -10,7 +10,23 @@
 
 ## Overview
 
-In this work, we reproduce part of work of <a href="https://arxiv.org/abs/2205.09328" target="_blank">Pruning Neural Networks at Initialization: Why are We Missing the Mark?</a>. We implement 3 pruning methods on VGG16 and VGG19 respectively on CIFAR10 (GraSP: , SNIP: , SynFlow: `trials/synflow`). The results we get are almost the same as the original paper.
+In this work, works of <a href="https://arxiv.org/abs/2205.09328" target="_blank">Pruning Neural Networks at Initialization: Why are We Missing the Mark?</a> are reproduced. Three pruning methods on VGG16 and VGG19 respectively on CIFAR10 (GraSP: , SNIP: , SynFlow: `trials/synflow`) are implemented. The results are the same as the original paper.
+
+## How to Run
+
+### Requirements
+
+PyTorch >= 1.4.0
+
+Torchvision >= 0.5.0
+
+Torchbearer
+
+GPU (if available, suggest)
+
+### Run each trial
+
+Simply access to `/GraSP` or `/SNIP` or `/synflow` in `trials/`, then follow the instructions. All codes are inside.
 
 ## Reference
 
